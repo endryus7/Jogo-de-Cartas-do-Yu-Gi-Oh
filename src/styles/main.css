@@ -38,6 +38,7 @@
 .container_left {
     width: 35%;
     min-width: 310px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -49,7 +50,7 @@
 
 .score_box {
     background-color: #fff;
-    padding: 2rem;
+    padding: 1.7rem;
 }
 
 .frame {
@@ -73,7 +74,7 @@
 }
 
 #card-type {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .card-box_container {
@@ -121,3 +122,12 @@
     width: 8rem;
     border-radius: 8px;
 }
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
